@@ -13,7 +13,7 @@ function App() {
         id='three-canvas'
         style={{ display: 'block', width: '100vw', height: '100vh' }}
       />
-      <ThreeCanvas selectedPart={selectedPart} />
+      <ThreeCanvas />
       <div
         style={{
           position: 'absolute',
